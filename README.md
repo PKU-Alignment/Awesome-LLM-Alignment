@@ -2,7 +2,6 @@
 
 - [Papers](#papers)
   - [LLM for Safety \& Safe-Alignment](#llm-for-safety--safe-alignment)
-- [](#)
   - [LLM for Evaluation](#llm-for-evaluation)
   - [LLM for Human \& Value-Alignment \& Behavior-Alignment](#llm-for-human--value-alignment--behavior-alignment)
 - [Datasets](#datasets)
@@ -36,6 +35,7 @@ Anthropic, NeurIPS 2022. [[Paper](https://arxiv.org/abs/2204.05862)] [[HuggingFa
 <summary><b>Abstract</b></summary>
 We apply preference modeling and reinforcement learning from human feedback (RLHF) to finetune language models to act as helpful and harmless assistants. We find this alignment training improves performance on almost all NLP evaluations, and is fully compatible with training for specialized skills such as python coding and summarization. We explore an iterated online mode of training, where preference models and RL policies are updated on a weekly cadence with fresh human feedback data, efficiently improving our datasets and models. Finally, we investigate the robustness of RLHF training, and identify a roughly linear relation between the RL reward and the square root of the KL divergence between the policy and its initialization. Alongside our main results, we perform peripheral analyses on calibration, competing objectives, and the use of OOD detection, compare our models with human writers, and provide samples from our models using prompts appearing in recent related work.
 </details>
+
 ---
 
 ### LLM for Evaluation
