@@ -1,10 +1,15 @@
 # Awesome-LLM-Alignment [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-- [LLM for Safety \& Safe-Alignment](#llm-for-safety--safe-alignment)
-- [LLM for Evaluation](#llm-for-evaluation)
-- [LLM for Human \& Value-Alignment \& Behavior-Alignment](#llm-for-human--value-alignment--behavior-alignment)
+- [Papers](#papers)
+  - [LLM for Safety \& Safe-Alignment](#llm-for-safety--safe-alignment)
+  - [LLM for Evaluation](#llm-for-evaluation)
+  - [LLM for Human \& Value-Alignment \& Behavior-Alignment](#llm-for-human--value-alignment--behavior-alignment)
+- [Datasets](#datasets)
+- [Codes](#codes)
 
-## LLM for Safety & Safe-Alignment
+
+## Papers
+### LLM for Safety & Safe-Alignment
 ---
 **Constrained Value-Aligned LLM via Safe RLHF** \
 *Tao Dai, Xuehai Pan, Jiaming Ji, Ruiyang Sun, Yizhou Wang, Yaodong Yang* \
@@ -25,7 +30,7 @@ Anthropic, NeurIPS 2022. [[Paper](https://arxiv.org/abs/2204.05862)] [[HuggingFa
 
 ---
 
-## LLM for Evaluation
+### LLM for Evaluation
 ---
 **Can Large Language Models Be an Alternative to Human Evaluations?** \
 *Cheng-Han Chiang, Hung-yi Lee*\
@@ -39,7 +44,7 @@ Human evaluation is indispensable and inevitable for assessing the quality of te
 ---
 <!-- ## LLM for Application -->
 
-## LLM for Human & Value-Alignment & Behavior-Alignment
+### LLM for Human & Value-Alignment & Behavior-Alignment
 
 ---
 **Training Socially Aligned Language Models in Simulated Human Society** \
@@ -62,3 +67,7 @@ An important aspect of developing LLMs that interact with humans is to align mod
 </details>
 
 ---
+
+## Datasets
+
+## Codes
