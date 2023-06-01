@@ -5,10 +5,25 @@
 - [LLM for Human \& Value-Alignment \& Behavior-Alignment](#llm-for-human--value-alignment--behavior-alignment)
 
 ## LLM for Safety & Safe-Alignment
-- **Constrained Value-Aligned LLM via Safe RLHF** \
+---
+**Constrained Value-Aligned LLM via Safe RLHF** \
 *Tao Dai, Xuehai Pan, Jiaming Ji, Ruiyang Sun, Yizhou Wang, Yaodong Yang* \
 Peking University, Github repo. [[Github](https://github.com/PKU-Alignment/safe-rlhf)] [[HuggingFace](https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF-10K)] \
-21 Feb 2023
+15 May 2023
+
+---
+**Characteristics of Harmful Text: Towards Rigorous Benchmarking of Language Models** \
+*Maribeth Rauh, John Mellor, Jonathan Uesato, Po-Sen Huang, Johannes Welbl, Laura Weidinger, Sumanth Dathathri, Amelia Glaese, Geoffrey Irving, Iason Gabriel, William Isaac, Lisa Anne Hendricks* \
+DeepMind, NeurIPS 2022. [[Paper](https://arxiv.org/abs/2206.08325)] [[Perspective API](https://www.perspectiveapi.com/)] \
+28 Oct 2022
+
+---
+**Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback** \
+*Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma, Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, Nicholas Joseph, Saurav Kadavath, Jackson Kernion, Tom Conerly, Sheer El-Showk, Nelson Elhage, Zac Hatfield-Dodds, Danny Hernandez, Tristan Hume, Scott Johnston, Shauna Kravec, Liane Lovitt, Neel Nanda, Catherine Olsson, Dario Amodei, Tom Brown, Jack Clark, Sam McCandlish, Chris Olah, Ben Mann, Jared Kaplan* \
+Anthropic, NeurIPS 2022. [[Paper](https://arxiv.org/abs/2204.05862)] [[HuggingFace](https://huggingface.co/datasets/Anthropic/hh-rlhf)] \
+28 Oct 2022
+
+---
 
 ## LLM for Evaluation
 ---
