@@ -8,7 +8,7 @@
 Peking University, Github repo. [[Github](https://github.com/PKU-Alignment/safe-rlhf)] [[HuggingFace](https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF-10K)] \
 21 Feb 2023
 
-### LLM for Evaluation
+## LLM for Evaluation
 ---
 **Can Large Language Models Be an Alternative to Human Evaluations?** \
 *Cheng-Han Chiang, Hung-yi Lee*\
@@ -20,9 +20,9 @@ Human evaluation is indispensable and inevitable for assessing the quality of te
 </details>
 
 ---
-## LLM for Application
+<!-- ## LLM for Application -->
 
-## LLM for Human & Value-Alignment
+## LLM for Human & Value-Alignment & Behavior-Alignment
 
 ---
 **Training Socially Aligned Language Models in Simulated Human Society** \
@@ -32,6 +32,16 @@ Dartmouth College, arXiv 2023. [[Paper](https://arxiv.org/abs/2305.16960)] [[Git
 <details>
 <summary><b>Abstract</b></summary>
 Social alignment in AI systems aims to ensure that these models behave according to established societal values. However, unlike humans, who derive consensus on value judgments through social interaction, current language models (LMs) are trained to rigidly replicate their training corpus in isolation, leading to subpar generalization in unfamiliar scenarios and vulnerability to adversarial attacks. This work presents a novel training paradigm that permits LMs to learn from simulated social interactions. In comparison to existing methodologies, our approach is considerably more scalable and efficient, demonstrating superior performance in alignment benchmarks and human evaluations. This paradigm shift in the training of LMs brings us a step closer to developing AI systems that can robustly and accurately reflect societal norms and values.
+</details>
+
+---
+**Aligning Language Models to User Opinions** \
+*EunJeong Hwang, Bodhisattwa Prasad Majumder, Niket Tandon*\
+arXiv 2023. [[Paper](https://arxiv.org/abs/2305.14929)] [[Github](https://github.com/eujhwang/personalized-llms)] \
+24 May 2023
+<details>
+<summary><b>Abstract</b></summary>
+An important aspect of developing LLMs that interact with humans is to align models' behavior to their users. It is possible to prompt an LLM into behaving as a certain persona, especially a user group or ideological persona the model captured during its pertaining stage. But, how to best align an LLM with a specific user and not a demographic or ideological group remains an open question. Mining public opinion surveys (by Pew Research), we find that the opinions of a user and their demographics and ideologies are not mutual predictors. We use this insight to align LLMs by modeling both user opinions as well as user demographics and ideology, achieving up to 7 points accuracy gains in predicting public opinions from survey questions across a broad set of topics. In addition to the typical approach of prompting LLMs with demographics and ideology, we discover that utilizing the most relevant past opinions from individual users enables the model to predict user opinions more accurately.
 </details>
 
 ---
