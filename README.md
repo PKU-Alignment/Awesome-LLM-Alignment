@@ -2,6 +2,7 @@
 
 - [Papers](#papers)
   - [LLM for Safety \& Safe-Alignment](#llm-for-safety--safe-alignment)
+- [](#)
   - [LLM for Evaluation](#llm-for-evaluation)
   - [LLM for Human \& Value-Alignment \& Behavior-Alignment](#llm-for-human--value-alignment--behavior-alignment)
 - [Datasets](#datasets)
@@ -21,13 +22,20 @@ Peking University, Github repo. [[Github](https://github.com/PKU-Alignment/safe-
 *Maribeth Rauh, John Mellor, Jonathan Uesato, Po-Sen Huang, Johannes Welbl, Laura Weidinger, Sumanth Dathathri, Amelia Glaese, Geoffrey Irving, Iason Gabriel, William Isaac, Lisa Anne Hendricks* \
 DeepMind, NeurIPS 2022. [[Paper](https://arxiv.org/abs/2206.08325)] [[Perspective API](https://www.perspectiveapi.com/)] \
 28 Oct 2022
+<details>
+<summary><b>Abstract</b></summary>
+Large language models produce human-like text that drive a growing number of applications. However, recent literature and, increasingly, real world observations, have demonstrated that these models can generate language that is toxic, biased, untruthful or otherwise harmful. Though work to evaluate language model harms is under way, translating foresight about which harms may arise into rigorous benchmarks is not straightforward. To facilitate this translation, we outline six ways of characterizing harmful text which merit explicit consideration when designing new benchmarks. We then use these characteristics as a lens to identify trends and gaps in existing benchmarks. Finally, we apply them in a case study of the Perspective API, a toxicity classifier that is widely used in harm benchmarks. Our characteristics provide one piece of the bridge that translates between foresight and effective evaluation.
+</details>
 
 ---
 **Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback** \
 *Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma, Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, Nicholas Joseph, Saurav Kadavath, Jackson Kernion, Tom Conerly, Sheer El-Showk, Nelson Elhage, Zac Hatfield-Dodds, Danny Hernandez, Tristan Hume, Scott Johnston, Shauna Kravec, Liane Lovitt, Neel Nanda, Catherine Olsson, Dario Amodei, Tom Brown, Jack Clark, Sam McCandlish, Chris Olah, Ben Mann, Jared Kaplan* \
 Anthropic, NeurIPS 2022. [[Paper](https://arxiv.org/abs/2204.05862)] [[HuggingFace](https://huggingface.co/datasets/Anthropic/hh-rlhf)] \
 28 Oct 2022
-
+<details>
+<summary><b>Abstract</b></summary>
+We apply preference modeling and reinforcement learning from human feedback (RLHF) to finetune language models to act as helpful and harmless assistants. We find this alignment training improves performance on almost all NLP evaluations, and is fully compatible with training for specialized skills such as python coding and summarization. We explore an iterated online mode of training, where preference models and RL policies are updated on a weekly cadence with fresh human feedback data, efficiently improving our datasets and models. Finally, we investigate the robustness of RLHF training, and identify a roughly linear relation between the RL reward and the square root of the KL divergence between the policy and its initialization. Alongside our main results, we perform peripheral analyses on calibration, competing objectives, and the use of OOD detection, compare our models with human writers, and provide samples from our models using prompts appearing in recent related work.
+</details>
 ---
 
 ### LLM for Evaluation
