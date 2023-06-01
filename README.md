@@ -1,6 +1,8 @@
 # Awesome-LLM-Alignment [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-## Overview
+- [LLM for Safety \& Safe-Alignment](#llm-for-safety--safe-alignment)
+- [LLM for Evaluation](#llm-for-evaluation)
+- [LLM for Human \& Value-Alignment \& Behavior-Alignment](#llm-for-human--value-alignment--behavior-alignment)
 
 ## LLM for Safety & Safe-Alignment
 - **Constrained Value-Aligned LLM via Safe RLHF** \
