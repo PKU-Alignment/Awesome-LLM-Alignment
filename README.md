@@ -9,6 +9,7 @@
     - [English](#english)
     - [Chinese](#chinese)
   - [Codes](#codes)
+    - [Support RLHF](#support-rlhf)
 
 ## Papers
 
@@ -103,6 +104,8 @@ A rlhf dataset contains 3k preference pairs.
 ---
 
 ## Codes
+
+### Support RLHF
 
 ---
 
