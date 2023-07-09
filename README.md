@@ -6,17 +6,13 @@
     - [LLM for Evaluation](#llm-for-evaluation)
     - [LLM for Human \& Value-Alignment \& Behavior-Alignment](#llm-for-human--value-alignment--behavior-alignment)
   - [Datasets](#datasets)
+    - [English](#english)
+    - [Chinese](#chinese)
   - [Codes](#codes)
 
 ## Papers
 
 ### LLM for Safety & Safe-Alignment
-
----
-**Constrained Value-Aligned LLM via Safe RLHF** \
-*Tao Dai, Xuehai Pan, Jiaming Ji, Ruiyang Sun, Yizhou Wang, Yaodong Yang* \
-Peking University, Github repo. [[Github](https://github.com/PKU-Alignment/safe-rlhf)] [[HuggingFace](https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF-10K)] \
-15 May 2023
 
 ---
 **Characteristics of Harmful Text: Towards Rigorous Benchmarking of Language Models** \
@@ -80,21 +76,29 @@ An important aspect of developing LLMs that interact with humans is to align mod
 ---
 
 ## Datasets
-
+### English
 ---
-**Anthropic/hh-rlhf**\
+**[`Anthropic/hh-rlhf`](https://huggingface.co/datasets/Anthropic/hh-rlhf)**\
 *Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma, Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, Nicholas Joseph, Saurav Kadavath, Jackson Kernion, Tom Conerly, Sheer El-Showk, Nelson Elhage, Zac Hatfield-Dodds, Danny Hernandez, Tristan Hume, Scott Johnston, Shauna Kravec, Liane Lovitt, Neel Nanda, Catherine Olsson, Dario Amodei, Tom Brown, Jack Clark, Sam McCandlish, Chris Olah, Ben Mann, Jared Kaplan*\
 Anthropic, arXiv 2023. [[Paper](https://arxiv.org/abs/2204.05862)] \
 12 Apr 2022
 
 <details>
-<summary><b>Abstract</b></summary>
+<summary><b>Data Card</b></summary>
 This repository provides access to two different kinds of data:
 
 - Human preference data about helpfulness and harmlessness from Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback. These data are meant to train preference (or reward) models for subsequent RLHF training. These data are not meant for supervised training of dialogue agents. Training dialogue agents on these data is likely to lead to harmful models and this should be avoided.
 - Human-generated and annotated red teaming dialogues from Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned. These data are meant to understand how crowdworkers red team models and what types of red team attacks are successful or not. The data are not meant for fine-tuning or preference modeling (use the data above for preference modeling). These data are entire transcripts of conversations that are derived from the harmlessness preference modeling data described above, where only the chosen response is incorporated into the overall transcript. Furthermore, the transcripts are annotated with human and automated measurements of how harmful the overall dialogues are.
 
 </details>
+
+---
+
+### Chinese
+
+---
+**[`zhihu_rlhf_3k`](https://huggingface.co/datasets/liyucheng/zhihu_rlhf_3k)**\
+A rlhf dataset contains 3k preference pairs.
 
 ---
 
